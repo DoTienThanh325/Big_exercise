@@ -1,0 +1,876 @@
+1. Playing_time: MP
+Top 3: 
+          Player  Playing_time: MP
+ Virgil van Dijk                32
+      Bernd Leno                32
+Antonee Robinson                32
+Bottom 3: 
+       Player  Playing_time: MP
+  Ben Godfrey                 2
+ Ayden Heaven                 2
+Billy Gilmour                 2
+
+2. Playing_time: Starts
+Top 3: 
+          Player  Playing_time: Starts
+ Virgil van Dijk                    32
+Ryan Gravenberch                    32
+       Matz Sels                    32
+Bottom 3: 
+       Player  Playing_time: Starts
+Ali Al Hamadi                     0
+  Wataru Endo                     0
+ Toby Collyer                     0
+
+3. Playing_time: Min
+Top 3: 
+         Player  Playing_time: Min
+Virgil van Dijk             2880.0
+ Nathan Collins             2880.0
+Jordan Pickford             2880.0
+Bottom 3: 
+              Player  Playing_time: Min
+       Harrison Reed               93.0
+        Ayden Heaven               95.0
+Jahmai Simpson-Pusey               96.0
+
+4. Performance: Gls
+Top 3: 
+        Player  Performance: Gls
+ Mohamed Salah              27.0
+Erling Haaland              21.0
+Alexander Isak              20.0
+Bottom 3: 
+          Player  Performance: Gls
+  İlkay Gündoğan               0.0
+ Tyrick Mitchell               0.0
+Antonee Robinson               0.0
+
+5. Performance: Ast
+Top 3: 
+          Player  Performance: Ast
+   Mohamed Salah              18.0
+Antonee Robinson              10.0
+     Bukayo Saka              10.0
+Bottom 3: 
+          Player  Performance: Ast
+  Aaron Ramsdale               0.0
+ Aaron Cresswell               0.0
+Łukasz Fabiański               0.0
+
+6. Performance: CrdY
+Top 3: 
+      Player  Performance: CrdY
+  Saša Lukić               12.0
+Flynn Downes               10.0
+ Will Hughes               10.0
+Bottom 3: 
+        Player  Performance: CrdY
+Wilson Odobert                0.0
+       Willian                0.0
+ Alex McCarthy                0.0
+
+7. Performance: CrdR
+Top 3: 
+            Player  Performance: CrdR
+Myles Lewis-Skelly                2.0
+     Jack Stephens                2.0
+   Bruno Fernandes                2.0
+Bottom 3: 
+           Player  Performance: CrdR
+    Yves Bissouma                0.0
+      Will Hughes                0.0
+William Smallbone                0.0
+
+8. Expected: xG
+Top 3: 
+        Player  Expected: xG
+ Mohamed Salah          22.6
+Erling Haaland          20.8
+Alexander Isak          16.6
+Bottom 3: 
+         Player  Expected: xG
+ Aaron Ramsdale           0.0
+ Woyo Coulibaly           0.0
+Alphonse Areola           0.0
+
+9. Expected: xAG
+Top 3: 
+       Player  Expected: xAG
+Mohamed Salah           12.1
+  Cole Palmer            9.2
+Son Heung-min            8.2
+Bottom 3: 
+           Player  Expected: xAG
+   Aaron Ramsdale            0.0
+      Ben Godfrey            0.0
+Benoît Badiashile            0.0
+
+10. Progression: PrgC
+Top 3: 
+       Player  Progression: PrgC
+  Jeremy Doku              169.0
+ Kaoru Mitoma              135.0
+Mohamed Salah              133.0
+Bottom 3: 
+          Player  Progression: PrgC
+  Aaron Ramsdale                0.0
+ Yerson Mosquera                0.0
+Łukasz Fabiański                0.0
+
+11. Progression: PrgP
+Top 3: 
+         Player  Progression: PrgP
+Bruno Fernandes              254.0
+ Joško Gvardiol              225.0
+Bruno Guimarães              217.0
+Bottom 3: 
+          Player  Progression: PrgP
+  Aaron Ramsdale                0.0
+Łukasz Fabiański                0.0
+ Alphonse Areola                0.0
+
+12. Progression: PrgR
+Top 3: 
+       Player  Progression: PrgR
+Mohamed Salah              398.0
+ Bryan Mbeumo              292.0
+ Kaoru Mitoma              274.0
+Bottom 3: 
+        Player  Progression: PrgR
+Aaron Ramsdale                0.0
+Antonín Kinský                0.0
+Arijanet Muric                0.0
+
+13. Per_90_minutes: Gls
+Top 3: 
+        Player  Per_90_minutes: Gls
+  James Mcatee                 1.21
+Ryan Sessegnon                 1.09
+ Donyell Malen                 1.04
+Bottom 3: 
+            Player  Per_90_minutes: Gls
+   Yehor Yarmoliuk                  0.0
+       Robin Olsen                  0.0
+Abdukodir Khusanov                  0.0
+
+14. Per_90_minutes: Ast
+Top 3: 
+       Player  Per_90_minutes: Ast
+  Bukayo Saka                 0.66
+   Danny Ings                 0.63
+Mohamed Salah                 0.57
+Bottom 3: 
+      Player  Per_90_minutes: Ast
+Adam Webster                  0.0
+Tyrone Mings                  0.0
+      Antony                  0.0
+
+15. Per_90_minutes: xG
+Top 3: 
+        Player  Per_90_minutes: xG
+  James Mcatee                1.10
+ Marco Asensio                0.86
+Erling Haaland                0.76
+Bottom 3: 
+          Player  Per_90_minutes: xG
+  Aaron Ramsdale                 0.0
+Łukasz Fabiański                 0.0
+ Alphonse Areola                 0.0
+
+16. Per_90_minutes: xAG
+Top 3: 
+         Player  Per_90_minutes: xAG
+Mykhailo Mudryk                 0.58
+ Philip Billing                 0.54
+Luis Sinisterra                 0.54
+Bottom 3: 
+        Player  Per_90_minutes: xAG
+Woyo Coulibaly                  0.0
+     Wout Faes                  0.0
+    Willy Boly                  0.0
+
+17. Goalkeeping_Performance: GA90
+Top 3: 
+          Player  Goalkeeping_Performance: GA90
+      Danny Ward                           4.00
+Christian Walton                           2.67
+   Alex McCarthy                           2.60
+Bottom 3: 
+      Player  Goalkeeping_Performance: GA90
+Jason Steele                           0.50
+  David Raya                           0.84
+     Alisson                           0.87
+
+18. Goalkeeping_Performance: Save%
+Top 3: 
+        Player  Goalkeeping_Performance: Save%
+          Neto                            84.6
+  Mark Travers                            80.0
+Robert Sánchez                            76.8
+Bottom 3: 
+                 Player  Goalkeeping_Performance: Save%
+             Danny Ward                            40.0
+Hákon Rafn Valdimarsson                            50.0
+            Robin Olsen                            55.6
+
+19. Goalkeeping_Performance: CS%
+Top 3: 
+                 Player  Goalkeeping_Performance: CS%
+Hákon Rafn Valdimarsson                         100.0
+            Robin Olsen                         100.0
+        Martin Dúbravka                          50.0
+Bottom 3: 
+       Player  Goalkeeping_Performance: CS%
+  Alex Palmer                           0.0
+Alex McCarthy                           0.0
+   Danny Ward                           0.0
+
+20. Goalkeeping_Penalty_Kicks: Save%
+Top 3: 
+           Player  Goalkeeping_Penalty_Kicks: Save%
+Caoimhín Kelleher                             100.0
+  Jordan Pickford                             100.0
+   Dean Henderson                              50.0
+Bottom 3: 
+        Player  Goalkeeping_Penalty_Kicks: Save%
+ Alex McCarthy                               0.0
+Arijanet Muric                               0.0
+    Bernd Leno                               0.0
+
+21. SoT%
+Top 3: 
+        Player  SoT%
+  Adam Webster 100.0
+Séamus Coleman 100.0
+   Ryan Fraser 100.0
+Bottom 3: 
+         Player  SoT%
+Aaron Cresswell   0.0
+Yerson Mosquera   0.0
+    Álex Moreno   0.0
+
+22. SoT/90
+Top 3: 
+         Player  SoT/90
+   Julio Enciso    3.37
+  Donyell Malen    2.43
+Luis Sinisterra    2.29
+Bottom 3: 
+         Player  SoT/90
+ Aaron Ramsdale     0.0
+Aaron Cresswell     0.0
+ Arijanet Muric     0.0
+
+23. G/Sh
+Top 3: 
+            Player  G/Sh
+Myles Lewis-Skelly   1.0
+       John Stones   1.0
+       Axel Disasi   0.5
+Bottom 3: 
+          Player  G/Sh
+Antonee Robinson   0.0
+ Aaron Cresswell   0.0
+ Yerson Mosquera   0.0
+
+24. Dist
+Top 3: 
+         Player  Dist
+Ibrahim Sangaré  32.0
+      Welington  31.9
+    Ryan Fraser  31.6
+Bottom 3: 
+        Player  Dist
+Kieran Tierney   2.6
+William Saliba   4.5
+  Harry Clarke   4.5
+
+25. Passing_Total: Cmp
+Top 3: 
+         Player  Passing_Total: Cmp
+Virgil van Dijk              2294.0
+ Joško Gvardiol              2079.0
+   Levi Colwill              2036.0
+Bottom 3: 
+         Player  Passing_Total: Cmp
+Albert Grønbaek                13.0
+Odsonne Édouard                17.0
+  Callum Wilson                23.0
+
+26. Passing_Total: Cmp%
+Top 3: 
+        Player  Passing_Total: Cmp%
+ Manuel Akanji                 93.9
+    Nathan Aké                 93.9
+William Saliba                 93.7
+Bottom 3: 
+      Player  Passing_Total: Cmp%
+   Matz Sels                 50.6
+George Hirst                 54.1
+        Beto                 57.2
+
+27. Passing_Total: TotDist
+Top 3: 
+         Player  Passing_Total: TotDist
+Virgil van Dijk                 41794.0
+   Levi Colwill                 36960.0
+ William Saliba                 34672.0
+Bottom 3: 
+         Player  Passing_Total: TotDist
+Albert Grønbaek                   135.0
+Odsonne Édouard                   230.0
+  Ali Al Hamadi                   278.0
+
+28. Passing_Short: Cmp%
+Top 3: 
+         Player  Passing_Short: Cmp%
+   Mark Travers                100.0
+Martin Dúbravka                100.0
+      Matz Sels                100.0
+Bottom 3: 
+       Player  Passing_Short: Cmp%
+ Paul Onuachu                 62.9
+Rodrigo Muniz                 67.6
+   Ramón Sosa                 68.2
+
+29. Passing_Medium: Cmp%
+Top 3: 
+                 Player  Passing_Medium: Cmp%
+                   Neto                 100.0
+            Alex Palmer                 100.0
+Hákon Rafn Valdimarsson                 100.0
+Bottom 3: 
+         Player  Passing_Medium: Cmp%
+   George Hirst                  42.9
+           Beto                  49.2
+Albert Grønbaek                  50.0
+
+30. Passing_Long: Cmp%
+Top 3: 
+        Player  Passing_Long: Cmp%
+   Wataru Endo               100.0
+   Andy Irving               100.0
+Tyrell Malacia               100.0
+Bottom 3: 
+          Player  Passing_Long: Cmp%
+Marshall Munetsi                 0.0
+    Ross Stewart                 0.0
+   Evan Ferguson                 0.0
+
+31. Passing_Expected: KP
+Top 3: 
+         Player  Passing_Expected: KP
+Bruno Fernandes                  77.0
+    Cole Palmer                  75.0
+  Mohamed Salah                  73.0
+Bottom 3: 
+          Player  Passing_Expected: KP
+  Aaron Ramsdale                   0.0
+Łukasz Fabiański                   0.0
+ Alphonse Areola                   0.0
+
+32. Passing_Expected: 1/3
+Top 3: 
+         Player  Passing_Expected: 1/3
+Virgil van Dijk                  245.0
+Youri Tielemans                  206.0
+ Moisés Caicedo                  204.0
+Bottom 3: 
+          Player  Passing_Expected: 1/3
+ Martin Dúbravka                    0.0
+Chiedozie Ogbene                    0.0
+    George Hirst                    0.0
+
+33. Passing_Expected: PPA
+Top 3: 
+         Player  Passing_Expected: PPA
+  Mohamed Salah                   78.0
+     Alex Iwobi                   74.0
+Martin Ødegaard                   65.0
+Bottom 3: 
+          Player  Passing_Expected: PPA
+  Woyo Coulibaly                    0.0
+      Willy Boly                    0.0
+Łukasz Fabiański                    0.0
+
+34. Passing_Expected: CrsPA
+Top 3: 
+          Player  Passing_Expected: CrsPA
+Antonee Robinson                     26.0
+     Pedro Porro                     22.0
+    Milos Kerkez                     21.0
+Bottom 3: 
+          Player  Passing_Expected: CrsPA
+  Aaron Ramsdale                      0.0
+Łukasz Fabiański                      0.0
+   Ali Al Hamadi                      0.0
+
+35. Passing_Expected: PrgP
+Top 3: 
+         Player  Passing_Expected: PrgP
+Bruno Fernandes                   254.0
+ Joško Gvardiol                   225.0
+Bruno Guimarães                   217.0
+Bottom 3: 
+          Player  Passing_Expected: PrgP
+  Aaron Ramsdale                     0.0
+Łukasz Fabiański                     0.0
+ Alphonse Areola                     0.0
+
+36. Goal_shot_creation: SCA
+Top 3: 
+         Player  Goal_shot_creation: SCA
+    Cole Palmer                    175.0
+Bruno Fernandes                    156.0
+  Mohamed Salah                    139.0
+Bottom 3: 
+           Player  Goal_shot_creation: SCA
+          Ben Mee                      0.0
+      Sven Botman                      0.0
+Kosta Nedeljković                      0.0
+
+37. Goal_shot_creation: SCA90
+Top 3: 
+         Player  Goal_shot_creation: SCA90
+ Philip Billing                       7.83
+ Luis Guilherme                       7.38
+Kevin De Bruyne                       6.40
+Bottom 3: 
+           Player  Goal_shot_creation: SCA90
+Benoît Badiashile                        0.0
+   Massimo Luongo                        0.0
+          Ben Mee                        0.0
+
+38. Goal_shot_creation: GCA
+Top 3: 
+          Player  Goal_shot_creation: GCA
+   Mohamed Salah                     24.0
+     Bukayo Saka                     21.0
+Mikkel Damsgaard                     18.0
+Bottom 3: 
+         Player  Goal_shot_creation: GCA
+ Aaron Ramsdale                      0.0
+    Wataru Endo                      0.0
+Victor Lindelöf                      0.0
+
+39. Goal_shot_creation: GCA90
+Top 3: 
+        Player  Goal_shot_creation: GCA90
+   Bukayo Saka                       1.38
+Harvey Elliott                       1.10
+   Mikey Moore                       0.97
+Bottom 3: 
+          Player  Goal_shot_creation: GCA90
+  Aaron Ramsdale                        0.0
+ Aaron Cresswell                        0.0
+Łukasz Fabiański                        0.0
+
+40. Defensive_Tackles: Tkl
+Top 3: 
+            Player  Defensive_Tackles: Tkl
+Idrissa Gana Gueye                   116.0
+      Daniel Muñoz                   100.0
+ Noussair Mazraoui                    95.0
+Bottom 3: 
+          Player  Defensive_Tackles: Tkl
+  Aaron Ramsdale                     0.0
+Łukasz Fabiański                     0.0
+ Bart Verbruggen                     0.0
+
+41. Defensive_Tackles: TklW
+Top 3: 
+            Player  Defensive_Tackles: TklW
+Idrissa Gana Gueye                     70.0
+      Daniel Muñoz                     65.0
+    Moisés Caicedo                     58.0
+Bottom 3: 
+         Player  Defensive_Tackles: TklW
+ Aaron Ramsdale                      0.0
+ Arijanet Muric                      0.0
+Bart Verbruggen                      0.0
+
+42. Defensive_Challenges: Att
+Top 3: 
+                Player  Defensive_Challenges: Att
+Trent Alexander-Arnold                       99.0
+   Alexis Mac Allister                       91.0
+       Elliot Anderson                       90.0
+Bottom 3: 
+       Player  Defensive_Challenges: Att
+  Ben Godfrey                        0.0
+Armando Broja                        0.0
+ Mark Travers                        0.0
+
+43. Defensive_Challenge: Lost
+Top 3: 
+                Player  Defensive_Challenge: Lost
+            João Gomes                       54.0
+Trent Alexander-Arnold                       53.0
+       Elliot Anderson                       49.0
+Bottom 3: 
+        Player  Defensive_Challenge: Lost
+Woyo Coulibaly                        0.0
+     Matz Sels                        0.0
+  Tyrone Mings                        0.0
+
+44. Defensive_Blocks: Blocks
+Top 3: 
+               Player  Defensive_Blocks: Blocks
+       Nathan Collins                      68.0
+              Murillo                      64.0
+Taylor Harwood-Bellis                      57.0
+Bottom 3: 
+          Player  Defensive_Blocks: Blocks
+  Aaron Ramsdale                       0.0
+Łukasz Fabiański                       0.0
+   Ali Al Hamadi                       0.0
+
+45. Defensive_Blocks: Sh
+Top 3: 
+         Player  Defensive_Blocks: Sh
+ Nathan Collins                  48.0
+    Dara O'Shea                  45.0
+James Tarkowski                  42.0
+Bottom 3: 
+          Player  Defensive_Blocks: Sh
+  Aaron Ramsdale                   0.0
+Łukasz Fabiański                   0.0
+   Ali Al Hamadi                   0.0
+
+46. Defensive_Blocks: Pass
+Top 3: 
+             Player  Defensive_Blocks: Pass
+Alexis Mac Allister                    52.0
+    Antoine Semenyo                    47.0
+    Tyrick Mitchell                    45.0
+Bottom 3: 
+          Player  Defensive_Blocks: Pass
+  Aaron Ramsdale                     0.0
+Łukasz Fabiański                     0.0
+  Arijanet Muric                     0.0
+
+47. Defensive_Blocks: Int
+Top 3: 
+           Player  Defensive_Blocks: Int
+Aaron Wan-Bissaka                   57.0
+ Antonee Robinson                   55.0
+ Ryan Gravenberch                   54.0
+Bottom 3: 
+          Player  Defensive_Blocks: Int
+   Ali Al Hamadi                    0.0
+Łukasz Fabiański                    0.0
+ Alphonse Areola                    0.0
+
+48. Possesion_Touches: Touches
+Top 3: 
+         Player  Possesion_Touches: Touches
+Virgil van Dijk                      2819.0
+ Joško Gvardiol                      2615.0
+   Levi Colwill                      2506.0
+Bottom 3: 
+         Player  Possesion_Touches: Touches
+Albert Grønbaek                        38.0
+Odsonne Édouard                        45.0
+  Ali Al Hamadi                        53.0
+
+49. Possesion_Touches: Def Pen
+Top 3: 
+      Player  Possesion_Touches: Def Pen
+Mark Flekken                      1225.0
+  Bernd Leno                      1001.0
+ André Onana                       951.0
+Bottom 3: 
+        Player  Possesion_Touches: Def Pen
+   Emi Buendía                         0.0
+ Callum Wilson                         1.0
+Miguel Almirón                         1.0
+
+50. Possesion_Touches: Def 3rd
+Top 3: 
+         Player  Possesion_Touches: Def 3rd
+   Mark Flekken                      1521.0
+Jordan Pickford                      1355.0
+     Bernd Leno                      1250.0
+Bottom 3: 
+         Player  Possesion_Touches: Def 3rd
+Odsonne Édouard                         4.0
+  Callum Wilson                         5.0
+  Ali Al Hamadi                         6.0
+
+51. Possesion_Touches: Mid 3rd
+Top 3: 
+         Player  Possesion_Touches: Mid 3rd
+Virgil van Dijk                      1561.0
+ Moisés Caicedo                      1348.0
+ William Saliba                      1324.0
+Bottom 3: 
+        Player  Possesion_Touches: Mid 3rd
+Fraser Forster                         0.0
+    Danny Ward                         0.0
+  Jason Steele                         0.0
+
+52. Possesion_Touches: Att 3rd
+Top 3: 
+         Player  Possesion_Touches: Att 3rd
+  Mohamed Salah                       943.0
+Bruno Fernandes                       825.0
+   Bryan Mbeumo                       820.0
+Bottom 3: 
+          Player  Possesion_Touches: Att 3rd
+  Aaron Ramsdale                         0.0
+Łukasz Fabiański                         0.0
+ Alphonse Areola                         0.0
+
+53. Possesion_Touches: Att Pen
+Top 3: 
+         Player  Possesion_Touches: Att Pen
+  Mohamed Salah                       298.0
+Antoine Semenyo                       171.0
+ Erling Haaland                       170.0
+Bottom 3: 
+         Player  Possesion_Touches: Att Pen
+ Aaron Ramsdale                         0.0
+        Alisson                         0.0
+Alphonse Areola                         0.0
+
+54. Possesion_Take: Ons: Att
+Top 3: 
+        Player  Possesion_Take: Ons: Att
+Mohammed Kudus                     175.0
+   Jeremy Doku                     168.0
+ Morgan Rogers                     142.0
+Bottom 3: 
+         Player  Possesion_Take: Ons: Att
+ Aaron Ramsdale                       0.0
+Alphonse Areola                       0.0
+ Arijanet Muric                       0.0
+
+55. Possesion_Take: Ons: Succ%
+Top 3: 
+          Player  Possesion_Take: Ons: Succ%
+Łukasz Fabiański                       100.0
+ Aaron Cresswell                       100.0
+    Tyrone Mings                       100.0
+Bottom 3: 
+            Player  Possesion_Take: Ons: Succ%
+Abdukodir Khusanov                         0.0
+   Albert Grønbaek                         0.0
+        Lewis Dunk                         0.0
+
+56. Possesion_Take: Ons: Tkld%
+Top 3: 
+             Player  Possesion_Take: Ons: Tkld%
+ Abdukodir Khusanov                       100.0
+Armel Bella Kotchap                       100.0
+  Benoît Badiashile                       100.0
+Bottom 3: 
+          Player  Possesion_Take: Ons: Tkld%
+ Aaron Cresswell                         0.0
+Łukasz Fabiański                         0.0
+Tosin Adarabioyo                         0.0
+
+57. Possesion_Carries: Carries
+Top 3: 
+            Player  Possesion_Carries: Carries
+    Joško Gvardiol                      1688.0
+   Virgil van Dijk                      1589.0
+Jan Paul van Hecke                      1471.0
+Bottom 3: 
+           Player  Possesion_Carries: Carries
+  Albert Grønbaek                        18.0
+  Odsonne Édouard                        23.0
+Kosta Nedeljković                        27.0
+
+58. Possesion_Carries: PrgDist
+Top 3: 
+            Player  Possesion_Carries: PrgDist
+Jan Paul van Hecke                      6356.0
+    Joško Gvardiol                      4938.0
+        Rúben Dias                      4615.0
+Bottom 3: 
+         Player  Possesion_Carries: PrgDist
+Albert Grønbaek                        15.0
+ Massimo Luongo                        25.0
+  Harrison Reed                        27.0
+
+59. Possesion_Carries: PrgC
+Top 3: 
+       Player  Possesion_Carries: PrgC
+  Jeremy Doku                    169.0
+ Kaoru Mitoma                    135.0
+Mohamed Salah                    133.0
+Bottom 3: 
+          Player  Possesion_Carries: PrgC
+  Aaron Ramsdale                      0.0
+ Yerson Mosquera                      0.0
+Łukasz Fabiański                      0.0
+
+60. Possesion_Carries: 1/3
+Top 3: 
+        Player  Possesion_Carries: 1/3
+    Alex Iwobi                    91.0
+Joško Gvardiol                    89.0
+   Jeremy Doku                    79.0
+Bottom 3: 
+        Player  Possesion_Carries: 1/3
+Aaron Ramsdale                     0.0
+  Toby Collyer                     0.0
+Antonín Kinský                     0.0
+
+61. Possesion_Carries: CPA
+Top 3: 
+       Player  Possesion_Carries: CPA
+Mohamed Salah                   107.0
+  Jeremy Doku                    77.0
+ Noni Madueke                    74.0
+Bottom 3: 
+          Player  Possesion_Carries: CPA
+  Aaron Ramsdale                     0.0
+ Aaron Cresswell                     0.0
+Łukasz Fabiański                     0.0
+
+62. Possesion_Carries: Mis
+Top 3: 
+       Player  Possesion_Carries: Mis
+Mohamed Salah                    99.0
+   Liam Delap                    92.0
+Morgan Rogers                    89.0
+Bottom 3: 
+          Player  Possesion_Carries: Mis
+Łukasz Fabiański                     0.0
+ Alphonse Areola                     0.0
+   Michael Keane                     0.0
+
+63. Possesion_Carries: Dis
+Top 3: 
+          Player  Possesion_Carries: Dis
+  Mohammed Kudus                    83.0
+ Bruno Guimarães                    71.0
+Dejan Kulusevski                    70.0
+Bottom 3: 
+          Player  Possesion_Carries: Dis
+  Aaron Ramsdale                     0.0
+ Aaron Cresswell                     0.0
+Łukasz Fabiański                     0.0
+
+64. Possesion_Receiving: Rec
+Top 3: 
+         Player  Possesion_Receiving: Rec
+Virgil van Dijk                    1931.0
+ Joško Gvardiol                    1911.0
+   Levi Colwill                    1835.0
+Bottom 3: 
+         Player  Possesion_Receiving: Rec
+Albert Grønbaek                      21.0
+Odsonne Édouard                      26.0
+           Neto                      28.0
+
+65. Possesion_Receiving: PrgR
+Top 3: 
+       Player  Possesion_Receiving: PrgR
+Mohamed Salah                      398.0
+ Bryan Mbeumo                      292.0
+ Kaoru Mitoma                      274.0
+Bottom 3: 
+        Player  Possesion_Receiving: PrgR
+Aaron Ramsdale                        0.0
+Antonín Kinský                        0.0
+Arijanet Muric                        0.0
+
+66. Miscellaneous_Stats_Performance: Fls
+Top 3: 
+         Player  Miscellaneous_Stats_Performance: Fls
+     Liam Delap                                  63.0
+Antoine Semenyo                                  63.0
+     João Gomes                                  62.0
+Bottom 3: 
+         Player  Miscellaneous_Stats_Performance: Fls
+ Antonín Kinský                                   0.0
+ Arijanet Muric                                   0.0
+Albert Grønbaek                                   0.0
+
+67. Miscellaneous_Stats_Performance: Fld
+Top 3: 
+         Player  Miscellaneous_Stats_Performance: Fld
+Bruno Guimarães                                  94.0
+ James Maddison                                  63.0
+    John McGinn                                  60.0
+Bottom 3: 
+         Player  Miscellaneous_Stats_Performance: Fld
+Alphonse Areola                                   0.0
+  Andrés García                                   0.0
+    Axel Disasi                                   0.0
+
+68. Miscellaneous_Stats_Performance: Off
+Top 3: 
+               Player  Miscellaneous_Stats_Performance: Off
+Dominic Calvert-Lewin                                  27.0
+          Jamie Vardy                                  23.0
+           Chris Wood                                  22.0
+Bottom 3: 
+          Player  Miscellaneous_Stats_Performance: Off
+  Aaron Ramsdale                                   0.0
+ Aaron Cresswell                                   0.0
+Łukasz Fabiański                                   0.0
+
+69. Miscellaneous_Stats_Performance: Crs
+Top 3: 
+         Player  Miscellaneous_Stats_Performance: Crs
+    Pedro Porro                                 168.0
+   Bryan Mbeumo                                 163.0
+Bruno Fernandes                                 162.0
+Bottom 3: 
+          Player  Miscellaneous_Stats_Performance: Crs
+  Aaron Ramsdale                                   0.0
+Łukasz Fabiański                                   0.0
+   Ali Al Hamadi                                   0.0
+
+70. Miscellaneous_Stats_Performance: Recov
+Top 3: 
+         Player  Miscellaneous_Stats_Performance: Recov
+ Moisés Caicedo                                   184.0
+  Ryan Christie                                   182.0
+Bruno Fernandes                                   182.0
+Bottom 3: 
+                 Player  Miscellaneous_Stats_Performance: Recov
+             Danny Ward                                     1.0
+         Fraser Forster                                     1.0
+Hákon Rafn Valdimarsson                                     1.0
+
+71. Miscellaneous_Stats_Aerial Duels: Won
+Top 3: 
+         Player  Miscellaneous_Stats_Aerial Duels: Won
+       Dan Burn                                  115.0
+Virgil van Dijk                                  102.0
+James Tarkowski                                  100.0
+Bottom 3: 
+        Player  Miscellaneous_Stats_Aerial Duels: Won
+Woyo Coulibaly                                    0.0
+Miguel Almirón                                    0.0
+          Neto                                    0.0
+
+72. Miscellaneous_Stats_Aerial Duels: Lost
+Top 3: 
+              Player  Miscellaneous_Stats_Aerial Duels: Lost
+          Chris Wood                                   117.0
+Jean-Philippe Mateta                                    93.0
+Jørgen Strand Larsen                                    91.0
+Bottom 3: 
+        Player  Miscellaneous_Stats_Aerial Duels: Lost
+Aaron Ramsdale                                     0.0
+       Alisson                                     0.0
+          Neto                                     0.0
+
+73. Miscellaneous_Stats_Aerial Duels: Won%
+Top 3: 
+         Player  Miscellaneous_Stats_Aerial Duels: Won%
+Albert Grønbaek                                   100.0
+    Alex Palmer                                   100.0
+ Aaron Ramsdale                                   100.0
+Bottom 3: 
+       Player  Miscellaneous_Stats_Aerial Duels: Won%
+       Antony                                     0.0
+Andrés García                                     0.0
+  Timo Werner                                     0.0
+
