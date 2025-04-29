@@ -1,12 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import os
 df = pd.read_csv('Problem 1/results.csv', na_values='N/a')
 df.drop(columns='Unnamed: 0', inplace=True)
 numeric_col = df.select_dtypes(include='number').columns
 
 for col in numeric_col:
-    if df[col].isna().all():
+    if df[col].isna().all(): 
         continue
     teams = df['Team'].unique()
     len_teams = len(teams)

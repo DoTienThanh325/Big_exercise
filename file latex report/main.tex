@@ -1,0 +1,297 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[vietnamese]{babel}
+\usepackage[a4paper, left=3cm, right=2cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{mathptmx} %font time new roman
+\usepackage{float} %set vị trí chèn ảnh
+\usepackage{tikz} %tạo khung bìa
+\usetikzlibrary{calc} %thư viện tikz
+\usepackage{indentfirst} % Thụt đầu dòng
+\renewcommand{\baselinestretch}{1.2} % Giãn dòng 1.2
+\setlength{\parskip}{6pt} % Khoảng cách sau đoạn
+\usepackage{titlesec} % Thư viện để set up các kiểu chữ
+\usepackage{xcolor}    % để dùng màu
+\usepackage{fancyvrb}   % để chỉnh màu cho verbatim
+\DefineVerbatimEnvironment{verbatim}{Verbatim}
+{formatcom=\color{purple}} % đổi chữ verbatim thành màu xanh lá
+\setlength{\parindent}{0pt}
+\titlespacing*{\section}{0pt}{0pt}{30pt} % Heading 1
+\titleformat*{\section}{\fontsize{16pt}{0pt}\selectfont\bfseries}
+\titlespacing*{\subsection}{0pt}{10pt}{0pt} % Heading 2
+\titleformat*{\subsection}{\fontsize{14pt}{0pt}\selectfont\bfseries}
+\titlespacing*{\subsubsection}{0pt}{10pt}{0pt} % Heading 3
+\titleformat*{\subsubsection}{\fontsize{13pt}{0pt}\selectfont\bfseries\itshape}
+\titlespacing*{\paragraph}{0pt}{10pt}{0pt} % Heading 4
+\titleformat*{\paragraph}{\fontsize{13pt}{0pt}\selectfont\itshape}
+\setcounter{secnumdepth}{4}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}
+\usepackage{enumitem} % dùng để kiểm soát đẹp hơn
+\renewcommand{\labelitemii}{\small$\blacksquare$}
+\begin{document}
+\begin{titlepage}
+    \begin{tikzpicture}[overlay, remember picture]
+    % Vẽ khung lớn
+    \draw [line width=3pt]
+        ($ (current page.north west) + (3.0cm,-2.0cm) $)
+        rectangle
+        ($ (current page.south east) + (-2.0cm,2.5cm) $);
+    
+    % Vẽ khung nhỏ
+    \draw [line width=0.5pt]
+        ($ (current page.north west) + (3.1cm,-2.1cm) $)
+        rectangle
+        ($ (current page.south east) + (-2.1cm,2.6cm) $);
+    \end{tikzpicture}
+    \begin{center}
+        \textbf{\fontsize{16pt}{0pt}\selectfont HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG} \\
+        \vspace{10pt}
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.5\linewidth]{img/logo.png}
+        \end{figure}
+         \textbf{\fontsize{26pt}{0pt}\selectfont BÀI TẬP LỚN} \\
+         \vspace{10pt}
+         \textbf{\fontsize{26pt}{0pt}\selectfont MÔN: LẬP TRÌNH PYTHON} \\
+         \vspace{2cm}
+    \end{center}
+    \begin{table}[H]
+         \centering
+         \begin{tabular}{c c}
+           \textbf{\fontsize{14pt}{0pt}\selectfont HỌ TÊN:}   &  \fontsize{14pt}{0pt}\selectfont Đỗ Tiến Thành \vspace{6pt} \\
+           \textbf{\fontsize{14pt}{0pt}\selectfont MÃ SV:}   &  \fontsize{14pt}{0pt}\selectfont B23DCDT239 \vspace{6pt} \\
+           \textbf{\fontsize{14pt}{0pt}\selectfont LỚP:}   &  \fontsize{14pt}{0pt}\selectfont D23CQCE04-B \\
+         \end{tabular}
+     \end{table}
+\end{titlepage}
+\cleardoublepage
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+\thispagestyle{empty}
+
+\cleardoublepage
+
+% ĐỀ BÀI
+\pagenumbering{arabic}
+\section{YÊU CẦU ĐỀ BÀI}
+\addcontentsline{toc}{section}{\numberline {} YÊU CẦU ĐỀ BÀI}
+\setcounter{section}{0}
+\subsection{Problem 1}
+Write a Python program to collect footballer player statistical data with the following
+requirements:
+\begin{itemize}
+    \item Collect statistical data [*] for all players who have played more than 90 minutes in the
+2024-2025 English Premier League season.
+    \item Data source: \url{https://fbref.com/en/}
+    \item Save the result to a file named 'results.csv', where the result table has the following
+structure:
+    \begin{itemize}[label=$\circ$]
+        \item Each column corresponds to a statistic.
+        \item Players are sorted alphabetically by their first name.
+        \item Any statistic that is unavailable or inapplicable should be marked as "N/a".
+    \end{itemize}
+    \item The required statistics are:
+    \begin{itemize}[label=$\circ$]
+        \item \textbf{Nation}
+        \item \textbf{Team}
+        \item \textbf{Position}
+        \item \textbf{Age}
+        \item \textbf{Playing Time}: matches played, starts, minutes
+        \item \textbf{Performance}:  expected goals (xG), expedted Assist Goals (xAG)
+        \item \textbf{Progression}: PrgC, PrgP, PrgR
+        \item \textbf{Per 90 minutes}: Gls, Ast, xG, xGA
+        \item \textbf{Goalkeeping}:
+        \begin{itemize}
+            \item Performance: goals against per 90mins (GA90), Save\%, CS\%
+            \item Penalty Kicks: penalty kicks Save\%
+        \end{itemize}
+        \item \textbf{Shooting}:
+        \begin{itemize}
+            \item Standard: shoots on target percentage (SoT\%), Shoot on Target per 90min
+(SoT/90), goals/shot (G/sh), average shoot distance (Dist)
+        \end{itemize}
+        \item \textbf{Passing}:
+        \begin{itemize}
+            \item Total: passes completed (Cmp),Pass completion (Cmp\%), progressive
+passing distance (TotDist)
+            \item Short: Pass completion (Cmp\%),
+            \item Medium: Pass completion (Cmp\%),
+            \item Long: Pass completion (Cmp\%),
+            \item Expected: key passes (KP), pass into final third (1/3), pass into penalty
+area (PPA), CrsPA, PrgP
+        \end{itemize}
+        \item \textbf{Goal and Shot Creation}:
+        \begin{itemize}
+            \item SCA: SCA, SCA90
+            \item GCA: GCA, GCA90
+        \end{itemize}
+        \item \textbf{Defensive Actions}:
+        \begin{itemize}
+            \item Tackles: Tkl, TklW
+            \item Challenges: Att, Lost
+            \item Blocks: Blocks, Sh, Pass, Int
+        \end{itemize}
+        \item \textbf{Possession}:
+        \begin{itemize}
+            \item Touches: Touches, Def Pen, Def 3rd, Mid 3rd, Att 3rd, Att Pen
+            \item Take-Ons: Att, Succ\%, Tkld\%
+            \item Carries: Carries, ProDist, ProgC, 1/3, CPA, Mis, Dis
+            \item Receiving: Rec, PrgR
+        \end{itemize}
+        \item \textbf{Miscellaneous Stats}:
+        \begin{itemize}
+            \item Performance: Fls, Fld, Off, Crs, Recov
+            \item Aerial Duels: Won, Lost, Won%
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\subsection{Problem 2}
+\begin{itemize}
+    \item Identify the top 3 players with the highest and lowest scores for each statistic. Save result to a file name ‘top\_3.txt’
+    \item Find the median for each statistic. Calculate the mean and standard deviation for each
+statistic across all players and for each team. Save the results to a file named 'results2.csv'
+with the following format:
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|c|}
+            \hline
+              & Median of Attribute 1 & Mean of Attribute 1 & Std of Attribute 1 & \ldots & \ldots & \ldots \\
+            \hline
+            0 & all & & & & & \\
+            \hline
+            1 & Team 1 & & & & & \\
+            \hline
+            \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+            \hline
+            n & Team n & & & & & \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \item Plot a histogram showing the distribution of each statistic for all players in the league and each team.
+    \item Identify the team with the highest scores for each statistic. Based on your analysis, which team do you think is performing the best in the 2024-2025 Premier League season?
+\end{itemize}
+\subsection{Problem 3}
+\begin{itemize}
+    \item Use the K-means algorithm to classify players into groups based on their statistics.
+    \item How many groups should the players be classified into? Why? Provide your comments
+    on the results.
+    \item Use PCA to reduce the data dimensions to 2, then plot a 2D cluster of the data points.
+\end{itemize}
+\subsection{Problem 4}
+\begin{itemize}
+    \item Collect player transfer values for the 2024-2025 season from \\
+    \url{https://www.footballtransfers.com.} Note that only collect for the players whose playing
+    time is greater than 900 minutes
+    \item Propose a method for estimating player values. How do you select feature and model?
+\end{itemize}
+\cleardoublepage
+
+\input{section1}
+
+\cleardoublepage
+
+\input{section2}
+
+\cleardoublepage
+\input{section3}
+
+\cleardoublepage
+\section{PHÂN TÍCH CÂU 4}
+\addcontentsline{toc}{section}{\numberline {} PHÂN TÍCH CÂU 4}
+\setcounter{section}{4}
+* \textbf{Truy cập link github để có thể xem code tốt nhất:}  \url{https://github.com/DoTienThanh325/Big_exercise/tree/main/Problem%204}
+\subsection{Câu 4 ý 1}
+\subsubsection{Ý tưởng làm bài}
+Sử dụng selenium để lấy dữ liệu của trang web, chuẩn hóa tên thu được sao cho dữ liệu tên mới thu được khớp với tên cầu thủ trong từ bài một thu được để đối chiếu thời gian thi đấu cầu thủ.
+\subsubsection{Phân tích code câu 4 ý 1}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/4_1-1.png}
+\end{figure}
+- Hàm \textbf{crawl\_data()} Áp dụng Selenium:
+\begin{itemize}
+    \item \textbf{chromedriver\_path }: Khởi tạo biến đường dẫn chromedriver.
+    \item \textbf{service = Service(chromedriver\_path)}: Khởi tạo một đối tượng Service để chỉ định đường dẫn đến trình điều khiển chromedriver (tệp cần thiết để Selenium tương tác với trình duyệt Chrome).
+    \item \textbf{webdriver.ChromeOptions()}: Tạo một đối tượng \textbf{ChromeOptions} để thiết lập các tùy chọn cho Chrome.
+    \begin{itemize}[label=$\circ$]
+        \item \textbf{--headless}: Chạy Chrome mà không mở giao diện người dùng (trình duyệt sẽ chạy ở chế độ ẩn).
+        \item \textbf{ --user-agent=Mozilla/...}: Thiết lập User-Agent để giả lập trình duyệt Chrome, tránh bị phát hiện là bot.
+    \end{itemize}
+    \item \textbf{driver = webdriver.Chrome(service=service, options=options)}: Khởi tạo trình duyệt Chrome với các tùy chọn đã thiết lập (bao gồm chế độ headless và user-agent).
+    \item \textbf{driver.get(url)}: Truy cập vào URL.
+    \item \textbf{time.sleep(3)}: Đợi 3 giây để trang web tải xong trước khi thu thập dữ liệu.
+    \item \textbf{soup = bs(driver.page\_source, 'html.parser')}: Lấy nội dung trang web (HTML) và phân tích nó bằng BeautifulSoup.
+    \item \textbf{table = soup.find('table')}: Tìm thẻ <table> đầu tiên trong nội dung trang.
+    \item \textbf{if table}:: Kiểm tra nếu bảng dữ liệu tồn tại trên trang.
+    \item \textbf{rows = table.find\_all('tr')}: Tìm tất cả các thẻ <tr> trong bảng, mỗi thẻ tương ứng với một hàng trong bảng.
+    \item Lấy dữ liệu cầu thủ và giá chuyển nhượng:
+    \begin{itemize}[label=$\circ$]
+        \item \textbf{player = row.find\_all('span', attrs={'class': 'd-none'})}: Lấy các phần tử \textbf{<span>} có class \textbf{'d-none'}.
+        \item \textbf{price = row.find\_all('td', attrs={'class': 'text-center'})}: Lấy các thẻ \textbf{<td>} có class \textbf{'text-center'}.
+    \end{itemize}
+    \item \textbf{price = [p.text.strip() for p in price]} và \textbf{player = [p.text.strip() for p in player]}: Loại bỏ khoảng trắng thừa từ các giá trị lấy được.
+    \item \textbf{cols = player + price}: Kết hợp thông tin người chơi và giá vào một danh sách cols
+    \item \textbf{if cols:}: Kiểm tra nếu danh sách cols không rỗng trước khi thêm vào data.
+    \item \textbf{df = pd.DataFrame(data)}: Chuyển danh sách data thành một DataFrame của pandas.
+    \item Sử dụng \textbf{try} và \textbf{except} để phòng trường hợp bị lỗi.
+\end{itemize}
+- Hàm chuẩn hóa tên cầu thủ: Do lấy dữ liệu từ hai trang web khác nhau nên tên cầu thủ không được giống nhau nên ta cần chuẩn hóa để cầu thủ hai nguồn dữ liệu khớp nhau:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/4-1_2.png}
+\end{figure}
+- \textbf{if pd.isna(text): return ''}: Kiểm tra nếu đầu vào là giá trị NaN của pandas, trả về một chuỗi rỗng. Điều này giúp tránh lỗi khi hàm nhận giá trị NaN.\\
+- \textbf{unicodedata.normalize('NFD', text)}: Sử dụng thư viện \textbf{unicodedata} của Python để chuẩn hóa chuỗi văn bản theo dạng "NFD" (Normalization Form Decomposed). Trong NFD, các ký tự có dấu được tách thành hai phần: ký tự cơ bản và dấu phụ. Ví dụ, chữ "é" sẽ được tách thành "e" và dấu sắc.\\
+- \textbf{unicodedata.category(c) != 'Mn'}: Kiểm tra xem ký tự \textbf{c} có phải là dấu phụ hay không. \textbf{Mn} là mã phân loại cho các dấu phụ trong Unicode, và bạn loại bỏ các ký tự này trong quá trình ghép chuỗi.\\
+- \textbf{''.join(c for c in ...)}: Kết hợp các ký tự lại thành một chuỗi mà không chứa dấu phụ.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/4-1_3.png}
+\end{figure}
+- Chạy chương trình trong hàm main:
+\begin{itemize}
+    \item Lấy hết dữ liệu từ 22 url.
+    \item \textbf{df = df[[0, 2]]}: Chỉ lấy hai cột chỉ số 0 và 2.
+    \item \textbf{df = df.rename(columns={0: 'Player', 2: 'Price'})}: Đổi tên cột thành 'Player' và 'Price'.
+    \item \textbf{df['Player'] = df['Player'].replace(...)}: Thực hiện thay thế tên một số cầu thủ đặc biệt sao khớp với dữ liệu câu 1.
+    \item \textbf{df['Player'] = df['Player'].apply(remove\_diacritics)}: Áp dụng hàm \textbf{remove\_diacritics} để loại bỏ dấu phụ, chuẩn hóa tên.
+    \item \textbf{df\_epl = pd.read\_csv('Problem 1/results.csv', na\_values='N/a')}: Đọc dữ liệu thu được từ câu 1.
+    \item \textbf{df\_epl.drop(columns='Unnamed: 0', inplace=True)}: Xóa cột \textbf{'Unnamed: 0'} không cần thiết.
+    \item \textbf{df\_epl['Player'] = df\_epl['Player'].apply(remove\_diacritics)}: Áp dụng hàm \textbf{remove\_diacritics} cho cột 'Player' của tệp CSV.
+    \item \textbf{ df = df.merge(df\_epl, on='Player', how='outer')}: Kết hợp dữ liệu từ hai DataFrame (\textbf{df và df\_epl}) theo cột \textbf{'Player'}, dùng kiểu kết hợp \textbf{'outer'} để giữ tất cả các cầu thủ trong cả hai DataFrame.
+    \item \textbf{df = df[df['Playing\_time: Min'] > 900]}: Lọc ra các cầu thủ có thời gian chơi hơn 900 phút.
+    \item \textbf{df = df[['Player', 'Price', 'Playing\_time: Min']]}: Chọn chỉ các cột \textbf{'Player'}, \textbf{'Price'}, và \textbf{'Playing\_time: Min'}.
+    \item \textbf{df.dropna(subset=['Price'], inplace=True)}: Loại bỏ các dòng có giá trị 'Price' là NaN.
+    \item \textbf{df.reset\_index(drop=True, inplace=True)}: Đặt lại index của DataFrame.
+    \item \textbf{df.to\_csv('D:/file python/bài tập lớn/Problem 4/results.csv', index=True)}: Lưu lại DataFrame hoàn chỉnh.
+\end{itemize}
+\subsection{Câu 4 ý 2}
+\subsubsection{Ý tưởng làm bài}
+Xử lý hai bảng giá trị đã có ở câu 4 ý 1 và câu 1 sao cho khớp dữ liệu sau đó huấn luyện mô hình theo mô hình LogisticRegression.
+\subsubsection{Phân tích code câu 4 ý 2}
+- \textbf{Bước 1:} Xứ lý dữ liệu cầu thủ và giá tiền:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/4_2-1.png}
+\end{figure}
+- Đoạn code trên lấy dữ liệu từ hai file csv của câu 1 và ý 1 câu 4 xử lý lại tên sao cho khớp dữ liệu sau đó gộp các thuộc tính cầu thủ lại. Thu lấy các cột chỉ số có dạng number để phân tích dự đoán giá cầu thủ.
+Loại bỏ các chỉ số như giá cầu thủ, thẻ đỏ, thẻ vàng vì không ảnh hưởng tới giá của cầu thủ.\\\\
+- \textbf{Bước 2:} Huấn luyện mô hình:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/4-2_2.png}
+\end{figure}
+- Phân nhóm giá trị Price thành 3 nhóm: \textbf{Low, Medium, High} bằng \textbf{qcut}.\\
+- Chuẩn hóa các cột số \textbf{numeric\_col} bằng \textbf{StandardScaler}.\\
+- Chia dữ liệu thành tập huấn luyện và kiểm tra.
+- Huấn luyện mô hình \textbf{LogisticRegression} đa lớp (\textbf{multi\_class='multinomial'}) để dự đoán nhóm giá.
+- Đánh giá độ chính xác (\textbf{accuracy}), báo cáo phân loại (\textbf{classification\_report}), và ma trận nhầm lẫn (\textbf{confusion\_matrix}).\\\\
+- \textbf{Bước 3:} Thu lấy dataframe tầm quan trọng thuộc tính:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/4_2-3.png}
+\end{figure}
+- Tạo dataframe để lưu thuộc tính và tầm quan trọng của nó.\\
+- Sắp xếp các giá trị theo thứ tự giảm dần.\\
+- In ra và vẽ dưới dạng biểu đồ.
+- Cuối cùng lưu mô hình vào file.
+\end{document}  
